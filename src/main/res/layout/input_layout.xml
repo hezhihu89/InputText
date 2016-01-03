@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/one"
+            style="@style/Button_Style"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/two"
+            style="@style/Button_Style"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/three"
+            style="@style/Button_Style"
+            android:text="3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/start"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/four"
+            style="@style/Button_Style"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/five"
+            style="@style/Button_Style"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/six"
+            style="@style/Button_Style"
+            android:text="6" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/center"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/seven"
+            style="@style/Button_Style"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/eight"
+            style="@style/Button_Style"
+            android:text="8" />
+
+
+        <Button
+            android:id="@+id/nine"
+            style="@style/Button_Style"
+            android:text="9" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/end"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/zero"
+            style="@style/Button_Style"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/requse"
+            style="@style/Button_Style"
+            android:text="确认" />
+
+
+        <Button
+            android:id="@+id/cancel"
+            style="@style/Button_Style"
+            android:text="取消" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/sone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/stwo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/sthree"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/sfour"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/sfive"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/ssix"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</RelativeLayout>
