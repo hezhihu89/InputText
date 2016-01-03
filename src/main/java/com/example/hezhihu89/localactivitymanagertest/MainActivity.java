@@ -37,7 +37,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         /*refresh = (SwipeRefreshLayout) findViewById(R.id.swipe_refresh);
         refresh.setColorSchemeResources(android.R.color.holo_blue_light, android.R.color.holo_red_light, android.R.color.holo_orange_light, android.R.color.holo_green_light);
         */
-        //设置点击事件监听器
+        //设置点击事件监听器 -----测试
         but.setOnClickListener(this);
         edit.setOnClickListener(this);
 
