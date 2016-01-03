@@ -1,5 +1,6 @@
 package com.example.hezhihu89.localactivitymanagertest;
 
+import android.app.Activity;
 import android.app.ActivityGroup;
 import android.os.Bundle;
 import android.os.Handler;
@@ -13,7 +14,7 @@ import android.widget.EditText;
 import com.example.hezhihu89.localactivitymanagertest.view.FITAEditText;
 import com.example.hezhihu89.localactivitymanagertest.view.TIFAInputMethodPlugin;
 
-public class MainActivity extends ActivityGroup implements View.OnClickListener {
+public class MainActivity extends Activity implements View.OnClickListener {
 
     private Button but;
     private SwipeRefreshLayout refresh;
@@ -36,7 +37,7 @@ public class MainActivity extends ActivityGroup implements View.OnClickListener 
         /*refresh = (SwipeRefreshLayout) findViewById(R.id.swipe_refresh);
         refresh.setColorSchemeResources(android.R.color.holo_blue_light, android.R.color.holo_red_light, android.R.color.holo_orange_light, android.R.color.holo_green_light);
         */
-
+        //设置点击事件监听器
         but.setOnClickListener(this);
         edit.setOnClickListener(this);
 
